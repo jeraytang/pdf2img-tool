@@ -1,0 +1,22 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "运行 PDF 工具",
+      "type": "shell",
+      "command": "python",
+      "args": [
+        "main.py"
+      ],
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "打包 EXE",
+      "type": "shell",
+      "command": "build.bat",
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+}
