@@ -101,3 +101,10 @@ python -m pip install -r requirements.txt
 - 先确认 Python 与 pip 可用。
 - 手动执行：`python -m pip install -r requirements.txt pyinstaller`
 - 再次运行：`build.bat`
+
+## License
+
+This project is licensed under AGPL-3.0. See [LICENSE](LICENSE) file.
+
+**Note:** This project uses [PyMuPDF](https://github.com/pymupdf/pymupdf) 
+which is also licensed under AGPL-3.0.
